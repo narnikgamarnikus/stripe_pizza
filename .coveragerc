@@ -1,0 +1,5 @@
+[run]
+include = stripe_pizza/*
+omit = *migrations*, *tests*
+plugins =
+    django_coverage_plugin
